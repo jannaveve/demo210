@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	padding:0px;
+	margin:0px;
+}
+
+img {
+	postition:  absolute;
+}
+
+.dogA{
+
+  background-image: url("dogA.png");
+  position: absolute;
+  left: 321px;
+  top: 505px;
+  width: 631px;
+  height: 575px;
+  z-index: 5;
+}
+
+.catA {
+  background-image: url("catA.png");
+  position: absolute;
+  left: 1062px;
+  top: 564px;
+  width: 329px;
+  height: 262px;
+  z-index: 3;
+}
+
+/* Specifies the size of the audio container */
+audio {
+  width: 115px;
+  height: 25px;
+}
+
+audio::-webkit-media-controls-panel {
+  -webkit-justify-content: center;
+  height: 25px;
+}
+
+/* Removes the timeline */
+audio::-webkit-media-controls-timeline {
+  display: none !important;
+}
+
+/* Removes the time stamp */
+audio::-webkit-media-controls-current-time-display {
+  display: none;
+}
+audio::-webkit-media-controls-time-remaining-display {
+  display: none;
+}
+
